@@ -16,13 +16,13 @@ This small bash code demonstrate how you can easily export SFDC reports to CSV b
 4. curl to export the report to CSV
 
 ## Parameters
-
-### -s <URL> >>> SFDC domain URL
-### -r <UID> >>> SFDC report unique ID
-: -t <TOKEN> : SFDC account token
-: -u <USER>  : SFDC user name
-: -p <PASS>  : SFDC password
-
+```
+* -s <URL>   : SFDC domain URL
+* -r <UID>   : SFDC report unique ID
+* -t <TOKEN> : SFDC account token
+* -u <USER>  : SFDC user name
+* -p <PASS>  : SFDC password
+```
 ## Example
 ```
 ./sfdc2csv.sh \
