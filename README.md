@@ -26,7 +26,7 @@ This small bash code demonstrate how you can easily export SFDC reports to CSV b
 ## Example
 
 ./sfdc2csv.sh \
-  -s https://acme.my.salesforce.com \
+  -s https://test.salesforce.com \
   -r 00O80000005Ww9g
   -u user@acme.com
   -p my_password
@@ -35,7 +35,7 @@ This small bash code demonstrate how you can easily export SFDC reports to CSV b
 It is better to store both the password and token on a file to avoid display them as clear text when calling the script. For example:
 
 ./sfdc2csv.sh \
-  -s https://acme.my.salesforce.com \
+  -s https://test.salesforce.com \
   -r 00O80000005Ww9g
   -u user@acme.com
   -p $(cat password_file)
