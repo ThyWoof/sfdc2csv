@@ -67,7 +67,8 @@ SFDC_SESSION=$(curl -s 'https://login.salesforce.com/services/Soap/u/34.0'\
       <n1:password>$SFDC_PASS$SFDC_TOKEN</n1:password>
     </n1:login>
   </env:Body>
-</env:Envelope>" | sed -n 's:.*<sessionId>\(.*\)</sessionId>.*:\1:p')
+</env:Envelope>" |
+sed -n 's:.*<sessionId>\(.*\)</sessionId>.*:\1:p')
 
 [ "$SFDC_SESSION" = '' ] && usage 'unable to acquire the SFDC session'
 
