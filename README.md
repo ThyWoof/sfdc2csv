@@ -17,8 +17,8 @@ This small bash code demonstrate how you can easily export SFDC reports to CSV b
 
 ## Parameters
 
-: -s <URL>   : SFDC domain URL
-: -r <UID>   : SFDC report unique ID
+### -s <URL> >>> SFDC domain URL
+### -r <UID> >>> SFDC report unique ID
 : -t <TOKEN> : SFDC account token
 : -u <USER>  : SFDC user name
 : -p <PASS>  : SFDC password
