@@ -11,6 +11,6 @@ This small bash code demonstrate how you can easily export SFDC reports to CSV b
 ## Workflow
 
 1. curl to call the SFDC API login entrypoint
-2. sed to parse the SOAP response from 1) looking for a session
+2. sed to parse the SOAP response
 3. curl to validate the SFDC report endpoint
 4. curl to export the report to CSV
